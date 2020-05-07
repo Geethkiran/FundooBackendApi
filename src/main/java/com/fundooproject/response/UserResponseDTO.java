@@ -1,7 +1,7 @@
 package com.fundooproject.response;
 
 public class UserResponseDTO {
-
+	
 	public Object data;
 	public String message;
 
@@ -9,4 +9,5 @@ public class UserResponseDTO {
 		this.data = data;
 		this.message = message;
 	}
+	
 }
