@@ -93,4 +93,5 @@ public class User implements Serializable {
 	public void setVerificationStatus(String verificationStatus) {
 		this.verificationStatus = verificationStatus;
 	}
+	
 }
