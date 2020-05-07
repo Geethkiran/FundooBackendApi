@@ -9,4 +9,5 @@ public class LoginDto {
 
 	@NotEmpty(message = "Please Enter Password")
 	public String password;
+	
 }
