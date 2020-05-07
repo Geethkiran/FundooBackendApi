@@ -19,4 +19,5 @@ public interface IEmailService {
 	User setPassword(LoginDto loginDto);
 
 	void validateToken(String verificationtoken);
+	
 }
