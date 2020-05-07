@@ -10,7 +10,6 @@ import com.fundooproject.service.IEmailService;
 import com.fundooproject.service.IUserService;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
-
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -113,8 +112,8 @@ public class UserController {
 	 * 
 	 * @return list of notes.
 	 */
-	@GetMapping
-	@ApiOperation(value = "Get All Users.")
+	@GetMapping("/getAllUsers")
+	@ApiOperation("Get All Users")
 	public ResponseEntity<UserResponseDTO> getAll() {
 		List<User> allUser = userService.getAll();
 		return new ResponseEntity<>(
