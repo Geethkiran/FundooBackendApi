@@ -8,7 +8,6 @@ public class UserException extends RuntimeException {
 	public UserException(exceptionType type) {
 		this.type = type;
 	}
-
 	public enum exceptionType {
 		USER_NOT_FOUND, INVALID_EMAIL_ID, INVALID_PASSWORD, USER_ALREADY_EXIST, USER_NOT_EXIT;
 	}
