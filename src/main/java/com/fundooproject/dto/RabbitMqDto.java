@@ -1,9 +1,7 @@
 package com.fundooproject.dto;
 
 import lombok.Data;
-
 import org.springframework.stereotype.Component;
-
 import java.io.Serializable;
 
 @Component
