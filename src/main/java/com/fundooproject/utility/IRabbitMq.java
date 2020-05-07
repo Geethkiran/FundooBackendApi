@@ -9,4 +9,5 @@ public interface IRabbitMq {
 	void receiveMessage(RabbitMqDto rabbitMqDto); // listener
 
 	void send(RabbitMqDto rabbitMqDto);
+	
 }
