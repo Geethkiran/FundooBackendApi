@@ -25,4 +25,5 @@ public class RedisTempl<T> {
 	public String getMap(String redisKey, Object key) {
 		return hashOperation.get(redisKey, key);
 	}
+	
 }
