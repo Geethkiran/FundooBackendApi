@@ -10,4 +10,5 @@ public class VerificationToken {
 	public void setEmailToken(String emailToken) {
 		this.emailToken = emailToken;
 	}
+	
 }
