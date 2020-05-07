@@ -17,10 +17,10 @@ import org.springframework.stereotype.Service;
 
 /**
  * This class exposes the email methods of Interface {@link IEmailService}.
- *
  * @author Geeth
  * @since May-2020
  */
+
 @Service
 public class EmailServiceImp implements IEmailService {
 
