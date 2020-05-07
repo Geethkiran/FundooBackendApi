@@ -24,7 +24,6 @@ public class RabbitMqImp implements IRabbitMq {
 		final String exchange = "QueueExchangeConn";
 		final String routingKey = "RoutingKey";
 		rabbitTemplate.convertAndSend(exchange, routingKey, rabbitMqDto);
-
 	}
 
 	@Override
