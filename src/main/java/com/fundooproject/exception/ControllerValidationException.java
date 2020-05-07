@@ -17,4 +17,5 @@ public class ControllerValidationException extends ResponseEntityExceptionHandle
 		String errorMsg = ex.getBindingResult().getAllErrors().get(0).getDefaultMessage();
 		return new ResponseEntity<>("Error : " + errorMsg, HttpStatus.BAD_REQUEST);
 	}
+	
 }
